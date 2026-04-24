@@ -383,7 +383,7 @@ export default function Home() {
             { icon:"📞", label:"phone",    href:"tel:+917075544711" },
             { icon:"⌥",  label:"GitHub",             href:"https://github.com/yuktamenon" },
           ].map(c => (
-            <a key={c.label} href={c.href} className="contact-chip magnetic">
+            <a key={c.label} href={c.href} className="contact-chip magnetic" target="_blank" rel="noopener noreferrer">
               <span>{c.icon}</span> {c.label}
             </a>
           ))}
