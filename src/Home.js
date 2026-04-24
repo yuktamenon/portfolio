@@ -379,7 +379,7 @@ export default function Home() {
         <div className="contact-grid">
           {[
             { icon:"✉", label:"email",    href:"mailto:yuktamenon455@gmail.com" },
-            { icon:"🎓", label:"linkedin",  href:"https://www.linkedin.com/in/yukta-menon/" },
+            { icon:"🎓", label:"linkedin",  href:"www.linkedin.com/in/yukta-menon" },
             { icon:"📞", label:"phone",    href:"tel:+917075544711" },
             { icon:"⌥",  label:"GitHub",             href:"https://github.com/yuktamenon" },
           ].map(c => (
