@@ -1,0 +1,36 @@
+.navbar {
+  position: fixed; top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 20px 48px;
+  display: flex; justify-content: space-between; align-items: center;
+  background: rgba(250,248,242,0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px dashed rgba(58,48,40,0.12);
+}
+
+.nav-logo {
+  font-family: 'Caveat', cursive;
+  font-size: 22px; font-weight: 600;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex; gap: 36px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 13px; font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  transition: color 0.2s;
+  cursor: none;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--ink);
+}
